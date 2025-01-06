@@ -1,18 +1,19 @@
 const firebaseConfig = {
-    apiKey: "AIzaSyAwwfy5UM3xiHpIpyFMDdBcVtwDwx9q3ow",
-    authDomain: "rivalcoder1.firebaseapp.com",
-    projectId: "rivalcoder1",
-    storageBucket: "rivalcoder1.appspot.com",
-    messagingSenderId: "568226679853",
-    appId: "1:568226679853:web:91a240bc5a0e1fe3e2fca4"
+    apiKey: "*****",
+    authDomain: "*****",
+    projectId: "****",
+    storageBucket: "*****",
+    messagingSenderId: "****",
+    appId: "*****"
 };
+//Use Firebase Keys...
 
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
 
 // render recaptcha verifier
 function render() {
-    window.recaptchaVerifier = new firebase.auth.RecaptchaVerifier('recaptcha-container', {'size': 'invisible'});
+    window.recaptchaVerifier = new firebase.auth.RecaptchaVerifier('recaptcha-container', {'size': 'visible'});
 }
 render();
 

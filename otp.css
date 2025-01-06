@@ -1,7 +1,12 @@
 body{
     
-    background-image: url(image.png);
+    /* background-image: url(image.png); */
     color: aliceblue;
+    background-image:url(./Assests/abc.png) ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 #number{
     height: 28px;
@@ -40,14 +45,14 @@ body{
     left: 50%;
     transform: translate(-50%, -50%);
     border-radius: 50px;
-    border-style:dashed;
     border-width: 10px;
     border-color: rgb(47, 42, 99);
     align-content: center;
     background-image: url(abc.avif);
-    background-color: coral;
+    background-color: rgb(101, 98, 97);
     height: 400px;
     width:500px;
+    color: aliceblue;
 }
 
   
