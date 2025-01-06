@@ -10,11 +10,8 @@ This project demonstrates an OTP-based signup form using Firebase Authentication
 
 ## Preview
 
-![Signup Form Preview](preview-image.png)
 
-*Make sure to replace `preview-image.png` with the actual path to your screenshot or preview image.*
-
-2. **Set Up Firebase**
+ **Set Up Firebase**
    - Go to the [Firebase Console](https://console.firebase.google.com/).
    - Create a new project or use an existing one.
 ## Installation and Setup
